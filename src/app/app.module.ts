@@ -4,10 +4,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
+import { RecpiesComponent } from './recpies/recpies.component';
+import { RecpiesListComponent } from './recpies/recpies-list/recpies-list.component';
+import { RecpiesItemsComponent } from './recpies/recpies-list/recpies-items/recpies-items.component';
+import { RecipeDetailComponent } from './recpies/recipe-detail/recipe-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    RecpiesComponent,
+    RecpiesListComponent,
+    RecpiesItemsComponent,
+    RecipeDetailComponent
+    
+    
   ],
   imports: [
     BrowserModule,
